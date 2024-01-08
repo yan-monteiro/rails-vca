@@ -26,6 +26,21 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem "bootstrap", "~> 5.2"
+# Bootstrap is a popular front-end framework that provides pre-styled components and utilities for building responsive and modern web applications.
+
+gem "autoprefixer-rails"
+# Autoprefixer is a tool used to parse CSS and add vendor prefixes automatically, ensuring cross-browser compatibility for CSS properties.
+
+gem "font-awesome-sass", "~> 6.1"
+# Font Awesome is a library of scalable vector icons that can be easily customized and used within web projects.
+
+gem "simple_form"
+# Simple Form is a Ruby gem that simplifies the process of creating forms in Rails applications by generating clean and customizable form markup.
+
+gem "sassc-rails"
+# SassC is a wrapper for libsass, a fast and efficient implementation of Sass, a CSS preprocessor. This gem integrates SassC with the Rails asset pipeline for efficient stylesheet processing.
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -61,4 +76,3 @@ group :development do
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
-
