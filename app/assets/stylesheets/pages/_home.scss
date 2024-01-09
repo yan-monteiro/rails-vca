@@ -54,3 +54,47 @@ body {
   max-width: 100%; /* Ajusta a largura da imagem para não ultrapassar o contêiner */
   height: auto; /* Mantém a proporção da imagem */
 }
+
+.full-width-banner {
+  background-color: #133635; /* Substitua #ff0000 pela cor desejada */
+  color: #ffffff; /* Cor do texto, se necessário */
+  width: 100%;
+  padding: 35px;
+  height: 228px;
+  margin-top: 100px; /* Adicione padding conforme necessário */
+  /* Outros estilos personalizados */
+}
+
+.phrases {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.phrase-item {
+  margin: 0 10px; /* Espaço entre os itens */
+  text-align: center;
+}
+
+.phrase-item span {
+  display: block; /* Faz o span ocupar toda a largura disponível */
+  /* Estilos para os spans */
+}
+
+.phrase-item p {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 45px;
+  text-align: center;
+  /* Outros estilos desejados */
+}
+
+.cor-personalizada {
+  background-color: #133635;
+  border-radius: 20px;
+  /* Outros estilos */
+}
+
+.cor-personalizada:hover {
+  background-color: #A6A797;
+}
