@@ -1,1 +1,56 @@
-// Specific CSS for your home-page
+body {
+  background-color: #ffff;
+  padding-top: 85px;
+}
+
+.content {
+  position: relative;
+  top: 60px; /* Ajuste este valor para a altura da sua barra de navegação */
+}
+
+// NAV-BAR
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #A6A797;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #7F8077;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #133635;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+// FIM NAVBAR
+
+.container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+}
+
+.info,
+.image {
+  flex: 1; /* Para que ocupem espaços iguais */
+}
+
+.image img {
+  max-width: 100%; /* Ajusta a largura da imagem para não ultrapassar o contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
