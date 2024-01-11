@@ -55,12 +55,13 @@ body {
   height: auto; /* Mantém a proporção da imagem */
 }
 
+// BANNER FULL WIDTH
 .full-width-banner {
   background-color: #133635; /* Substitua #ff0000 pela cor desejada */
   color: #ffffff; /* Cor do texto, se necessário */
   width: 100%;
   padding: 35px;
-  height: 228px;
+  height: 215px;
   margin-top: 100px; /* Adicione padding conforme necessário */
   /* Outros estilos personalizados */
 }
@@ -88,6 +89,7 @@ body {
   text-align: center;
   /* Outros estilos desejados */
 }
+// FIM BANNER
 
 .cor-personalizada {
   background-color: #133635;
